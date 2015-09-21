@@ -14,7 +14,7 @@ class MrpProduction(models.Model):
     @api.one
     @api.depends('move_prod_id.procurement_id.sale_line_id')
     def get_sale_line_attachments(self):
-        self.sale_line_attachment_ids = [(5)]
+        self.sale_line_attachment_ids = False
         if self.move_prod_id and self.move_prod_id.procurement_id \
                 and self.move_prod_id.procurement_id.sale_line_id:
             ids = [a.id for a in self.move_prod_id.procurement_id.sale_line_id.attachment_ids]
