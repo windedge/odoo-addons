@@ -2,7 +2,9 @@
 {
     'name': "Send message button on topbar",
     'description': """
-Just revert the compose message code which is removed from official code base""",
+Just revert the compose message code which is removed from official code base, please follow this discussion for detail:
+https://github.com/odoo/odoo/commit/5209fbc7ed9fcad966ab064654a8a8697142be42
+""",
     'author': "xujl",
     'category': 'Base',
     'version': '0.1',
