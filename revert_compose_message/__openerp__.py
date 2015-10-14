@@ -6,7 +6,7 @@ Just revert the compose message code which is removed from official code base, p
 https://github.com/odoo/odoo/commit/5209fbc7ed9fcad966ab064654a8a8697142be42
 """,
     'author': "xujl",
-    'category': 'Base',
+    'category': 'Extra Rights',
     'version': '0.1',
 
     'depends': ['base', 'mail'],
