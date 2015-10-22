@@ -1,4 +1,4 @@
-openerp.custom_zfyc = function (instance) {
+openerp.menubar_badge_number = function (instance) {
     var QWeb = instance.web.qweb;
 
     instance.web.Menu.include({
