@@ -11,7 +11,7 @@ Show sub menu's badge num(sum up) on top menu bar
     'category': 'Extra Rights',
     'version': '0.1',
 
-    'depends': ['base'],
+    'depends': ['base', 'web'],
 
     'data': [
         # 'security/ir.model.access.csv',
