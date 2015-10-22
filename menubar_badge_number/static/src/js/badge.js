@@ -13,15 +13,12 @@ openerp.menubar_badge_number = function (instance) {
                 var sum = _.reduce($badges, function(acc, item){
                     return acc + parseInt($(item).text().trim());
                 }, 0);
-                if(sum > 0) {
-                    var menu_id = $menu2.attr('data-menu-parent');
 
-                    //not on settings menu
-                    if(menu_id != '4') {
-                        var $menu1 = self.$el.find('a[data-menu='+menu_id+']');
-                        $menu1.find('.badge').remove();
-                        $menu1.append(QWeb.render("Menu.needaction_counter", { widget : {needaction_counter: sum} }));
-                    }
+                var menu_id = $menu2.attr('data-menu-parent');
+                var $menu1 = self.$el.find('a[data-menu='+menu_id+']');
+                $menu1.find('.badge').remove();
+                if (sum > 0 && menu_id != '4') {
+                    $menu1.append(QWeb.render("Menu.needaction_counter", {widget: {needaction_counter: sum}}));
                 }
             });
         }
