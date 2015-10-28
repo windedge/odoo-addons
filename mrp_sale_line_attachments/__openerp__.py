@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "mrp_sale_line_attachments",
+    'name': "Manufacuring Show Sale Line's Attachments",
     'description': """
 Show sale order line's attachments on production.
 Inspired by module 'mrp_show_related_attachment'. """,
