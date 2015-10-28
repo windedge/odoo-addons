@@ -17,5 +17,8 @@ https://github.com/odoo/odoo/commit/5209fbc7ed9fcad966ab064654a8a8697142be42
     ],
     'qweb':[
         'static/src/xml/mail.xml',
-    ]
+    ],
+    'images': [
+        'static/description/revert_compose_message.png'
+    ],
 }

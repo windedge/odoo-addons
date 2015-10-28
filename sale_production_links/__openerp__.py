@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "sale_production_links",
+    'name': "Sale Order to Manufacturing Order",
     'description': """
 Add relation between Manufacturing Order and Sale Order
     """,
@@ -15,5 +15,8 @@ Add relation between Manufacturing Order and Sale Order
     'data': [
         # 'security/ir.model.access.csv',
         'views.xml',
+    ],
+    'images': [
+        'static/description/sale_production_links.png'
     ],
 }
