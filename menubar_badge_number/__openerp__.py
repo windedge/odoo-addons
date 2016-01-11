@@ -19,5 +19,6 @@ Show sub menu's badge num(sum up) on top menu bar
     ],
     'images': [
         'static/description/badge_number.png'
-    ]
+    ],
+    'license':'LGPL-3'
 }

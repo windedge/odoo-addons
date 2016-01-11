@@ -14,4 +14,5 @@ Inspired by module 'mrp_show_related_attachment'. """,
         # 'security/ir.model.access.csv',
         'views.xml',
     ],
+    'license': 'LGPL-3'
 }

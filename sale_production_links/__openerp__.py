@@ -19,4 +19,5 @@ Add relation between Manufacturing Order and Sale Order
     'images': [
         'static/description/sale_production_links.png'
     ],
+    'license': 'LGPL-3'
 }

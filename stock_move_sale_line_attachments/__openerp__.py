@@ -17,4 +17,5 @@ In the stock form view, show the related sale order line's attachments
         # 'security/ir.model.access.csv',
         'views.xml',
     ],
+    'license': 'LGPL-3'
 }
