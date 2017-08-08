@@ -1,7 +1,10 @@
-openerp.menubar_badge_number = function (instance) {
-    var QWeb = instance.web.qweb;
-
-    instance.web.Menu.include({
+// openerp.menubar_badge_number = function (instance) {
+odoo.define('menubar_badge_number', function (require) {
+"use strict";
+    var core = require('web.core');
+    var Menu = require('web.Menu');
+    var QWeb = core.qweb;
+    Menu.include({
         on_needaction_loaded : function(){
             var self = this;
             this._super.apply(this, arguments);
@@ -23,4 +26,4 @@ openerp.menubar_badge_number = function (instance) {
             });
         }
     })
-};
+});
