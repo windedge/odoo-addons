@@ -14,7 +14,6 @@ Show sub menu's badge num(sum up) on top menu bar
     'depends': ['base', 'web'],
 
     'data': [
-        # 'security/ir.model.access.csv',
         'template.xml',
     ],
     'images': [
