@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="portal_default_password" model="ir.config_parameter">
+            <field name="key">portal.default_password</field>
+            <field name="value">password</field>
+        </record>
+    </data>
+</odoo>
