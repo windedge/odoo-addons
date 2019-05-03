@@ -2,8 +2,8 @@
 {
     'name': "Grant Portal User With Password",
 
-    'summary': """Add a password field in grant portal user dialog""",
-    'description': """Share portal user with password""",
+    'summary': """Add password field in grant portal user dialog""",
+    'description': """Sharing portal user with password""",
 
     'author': "xujl",
     'website': "http://www.pan-sen.com",
