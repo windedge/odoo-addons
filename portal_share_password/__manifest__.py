@@ -6,7 +6,6 @@
     'description': """Sharing portal user with password""",
 
     'author': "xujl",
-    'website': "http://www.pan-sen.com",
 
     'category': 'Uncategorized',
     'version': '12.0.1.0.0',
@@ -19,6 +18,9 @@
     'data': [
         'data/res_config_data.xml',
         'wizard/portal_wizard_views.xml',
+    ],
+    'images': [
+        'static/description/icon.png'
     ],
     'demo': [
     ],
